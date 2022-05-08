@@ -11,7 +11,3 @@ func SetTimestamp() {
 func GetDuration() time.Duration {
 	return time.Duration(time.Now().UnixNano()) - timestamp
 }
-
-func GetDurationSec() time.Duration {
-	return (time.Duration(time.Now().UnixNano()) - timestamp) / time.Second
-}
