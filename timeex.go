@@ -1,4 +1,4 @@
-package timeex
+package gotools
 
 import "time"
 
